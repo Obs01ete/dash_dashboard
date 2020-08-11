@@ -1,54 +1,28 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: linux-64
-_libgcc_mutex=0.1=main
-blas=1.0=mkl
-brotlipy=0.7.0=py37h7b6447c_1000
-ca-certificates=2020.6.24=0
-certifi=2020.6.20=py37_0
-cffi=1.14.1=py37he30daa8_0
-click=7.1.2=py_0
-dash=1.4.1=py_0
-dash-core-components=1.3.1=py_0
-dash-html-components=1.0.1=py_0
-dash-renderer=1.1.2=py_0
-dash-table=4.4.1=py_0
-flask=1.1.2=py_0
-flask-compress=1.5.0=py_0
-future=0.18.2=py37_1
-intel-openmp=2020.1=217
-itsdangerous=1.1.0=py37_0
-jinja2=2.11.2=py_0
-ld_impl_linux-64=2.33.1=h53a641e_7
-libedit=3.1.20191231=h14c3975_1
-libffi=3.3=he6710b0_2
-libgcc-ng=9.1.0=hdf63c60_0
-libstdcxx-ng=9.1.0=hdf63c60_0
-markupsafe=1.1.1=py37h14c3975_1
-mkl=2020.1=217
-mkl-service=2.3.0=py37he904b0f_0
-mkl_fft=1.1.0=py37h23d657b_0
-mkl_random=1.1.1=py37h0573a6f_0
-ncurses=6.2=he6710b0_1
-numpy=1.19.1=py37hbc911f0_0
-numpy-base=1.19.1=py37hfa32c7d_0
-openssl=1.1.1g=h7b6447c_0
-pandas=1.1.0=py37he6710b0_0
-pip=20.2.1=py37_0
-plotly=4.8.2=py_0
-pycparser=2.20=py_2
-python=3.7.7=hcff3b4d_5
-python-dateutil=2.8.1=py_0
-pytz=2020.1=py_0
-pyyaml=5.3.1=py37h7b6447c_1
-readline=8.0=h7b6447c_0
-retrying=1.3.3=py37_2
-setuptools=49.2.1=py37_0
-six=1.15.0=py_0
-sqlite=3.32.3=h62c20be_0
-tk=8.6.10=hbc83047_0
-werkzeug=1.0.1=py_0
-wheel=0.34.2=py37_0
-xz=5.2.5=h7b6447c_0
-yaml=0.2.5=h7b6447c_0
-zlib=1.2.11=h7b6447c_3
+brotlipy==0.7.0
+certifi==2020.6.20
+cffi @ file:///tmp/build/80754af9/cffi_1596809855670/work
+click==7.1.2
+dash==1.4.1
+dash-core-components==1.3.1
+dash-html-components==1.0.1
+dash-renderer==1.1.2
+dash-table==4.4.1
+Flask==1.1.2
+Flask-Compress==1.5.0
+future==0.18.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1594371495811/work
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233707986/work
+pandas @ file:///tmp/build/80754af9/pandas_1596825853503/work
+plotly @ file:///tmp/build/80754af9/plotly_1593522991827/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+python-dateutil==2.8.1
+pytz==2020.1
+PyYAML==5.3.1
+retrying==1.3.3
+six==1.15.0
+Werkzeug==1.0.1
