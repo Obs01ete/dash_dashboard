@@ -82,7 +82,7 @@ class Dashboard:
         )(self.render)
 
     def run(self):
-        self.app.run_server(debug=True)
+        self.app.run_server(debug=False, host='0.0.0.0')
 
     def render(self, category_cl, payers_cl, month_slider_value):
         min_max_month = [self.months[i-1] for i in month_slider_value]
